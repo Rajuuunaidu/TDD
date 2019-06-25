@@ -17,6 +17,8 @@ public class Remove_First_A {
 		{
 			ReplaceString=string.substring(1,string.length());
 		}
+		else
+			ReplaceString=string;
 		return ReplaceString;
 	}
 
